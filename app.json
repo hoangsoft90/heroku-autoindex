@@ -1,0 +1,61 @@
+{
+	"name": "heroku-autoindex-cron",
+	"description": "A cron job for autoindex",
+	"repository": "https://github.com/hoangsoft90/heroku-autoindex",
+	"logo": "https://app.23webhost.com/images/logo.png",
+	"website": "https://bck.haibasoft.com/",
+	"stack": "container",
+	"image": "ghcr.io/hoangweb/autoindex_heroku:latest",
+	"addon":[
+		{
+	  		"plan": "heroku-postgresql:hobby-dev"
+		}
+	],
+	"env": {
+	    "DOMAIN": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "SC_SERVICE_ACCOUNT_0": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "SC_SERVICE_ACCOUNT_1": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "SC_SERVICE_ACCOUNT_2": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "SC_SERVICE_ACCOUNT_3": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "SC_TOKEN": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "SC_AuthConfig": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "HEROKU_APP": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "HEROKU_TOKEN": {
+	    	"description": "",
+	    	"value": ""
+	    },
+	    "CRON_JOB_API": {
+	    	"description": "",
+	    	"value": ""
+	    }
+	},
+	"scripts": {
+		"postdeploy": [
+		  "deploy.sh"
+		]
+	}
+}
