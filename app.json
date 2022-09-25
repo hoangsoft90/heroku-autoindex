@@ -22,7 +22,8 @@
 	    },
 	    "SC_SERVICE_ACCOUNT_1": {
 	    	"description": "",
-	    	"value": "","required": false
+	    	"value": "",
+	    	"required": false
 	    },
 	    "SC_SERVICE_ACCOUNT_2": {
 	    	"description": "",
@@ -39,6 +40,10 @@
 	    "SC_AuthConfig": {
 	    	"description": "",
 	    	"value": ""
+	    },
+	    "SC_PropertyType":{
+	    	"description":"",
+	    	"value": "domain"
 	    },
 	    "HEROKU_APP": {
 	    	"description": "",
