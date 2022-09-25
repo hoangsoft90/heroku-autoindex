@@ -1,3 +1,3 @@
 #!/bin/bash
 
-heroku addons:create
+#heroku addons:create
