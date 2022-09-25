@@ -26,11 +26,11 @@
 	    },
 	    "SC_SERVICE_ACCOUNT_2": {
 	    	"description": "",
-	    	"value": ""
+	    	"value": "","required": false
 	    },
 	    "SC_SERVICE_ACCOUNT_3": {
 	    	"description": "",
-	    	"value": ""
+	    	"value": "","required": false
 	    },
 	    "SC_TOKEN": {
 	    	"description": "",
