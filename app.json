@@ -55,7 +55,7 @@
 	},
 	"scripts": {
 		"postdeploy": [
-		  "deploy.sh"
+		  
 		]
 	}
 }
