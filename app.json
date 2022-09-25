@@ -22,7 +22,7 @@
 	    },
 	    "SC_SERVICE_ACCOUNT_1": {
 	    	"description": "",
-	    	"value": ""
+	    	"value": "","required": false
 	    },
 	    "SC_SERVICE_ACCOUNT_2": {
 	    	"description": "",
