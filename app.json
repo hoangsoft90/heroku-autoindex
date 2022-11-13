@@ -18,7 +18,8 @@
 	    },
 		"SITEMAP_URL": {
 	    	"description": "",
-	    	"value": ""
+	    	"value": "",
+			"required": false
 	    },
 	    "SC_SERVICE_ACCOUNT_0": {
 	    	"description": "",
